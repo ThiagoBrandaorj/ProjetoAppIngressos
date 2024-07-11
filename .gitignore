@@ -1,6 +1,9 @@
 # Ignorar a pasta bin
 bin/
 
+# Ignorar apenas arquivos .class na pasta bin
+bin/**/*.class
+
 # Ignorar todos os arquivos .class
 *.class
 
