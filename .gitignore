@@ -1,16 +1,21 @@
-# Compiled class file
+# Ignorar a pasta bin
+bin/
+
+# Ignorar todos os arquivos .class
 *.class
 
-# Log file
+# Outras regras comuns para projetos Java
+# Arquivos de log
 *.log
 
-# BlueJ files
-*.ctxt
+# Arquivos temporários
+*.tmp
+*.bak
+*.swp
+*~
+*.orig
 
-# Mobile Tools for Java (J2ME)
-.mtj.tmp/
-
-# Package Files #
+# Ferramentas de construção e pacotes
 *.jar
 *.war
 *.nar
@@ -18,12 +23,6 @@
 *.zip
 *.tar.gz
 *.rar
-
-# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
-hs_err_pid*
-
-# Generated sources
-generated/
 
 # Maven
 target/
@@ -43,14 +42,7 @@ build/
 .project
 .classpath
 .metadata/
-bin/
 tmp/
-*.tmp
-*.bak
-*.swp
-*~
-*.orig
-*.merge_file*
 
 # IntelliJ IDEA
 .idea/
@@ -61,7 +53,6 @@ out/
 
 # NetBeans
 nbproject/private/
-build/
 nbbuild/
 dist/
 nbdist/
@@ -69,3 +60,4 @@ nbdist/
 
 # VS Code
 .vscode/
+
